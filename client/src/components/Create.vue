@@ -31,7 +31,7 @@
           />
         </div>
         <div class="form-gruop">
-          <button type="submit" class="btn btn-success btn-block">
+          <button class="btn btn-success btn-block">
             Create
           </button>
         </div>
