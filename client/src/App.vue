@@ -9,15 +9,15 @@
       "
     >
       <div class="container justify-content-between">
-        <router-link to="/" class="navbar-brand">เล่านิทาน</router-link>
-        <!-- <ul class="nav navbar-nav flex-row">
+        <router-link to="/" class="navbar-brand">MEVN</router-link>
+        <ul class="nav navbar-nav flex-row">
           <li class="nav-item">
             <router-link to="/" class="nav-link">Create Student</router-link>
           </li>
           <li class="nav-item">
             <router-link to="/view" class="nav-link">View Student</router-link>
           </li>
-        </ul> -->
+        </ul>
       </div>
     </nav>
 
