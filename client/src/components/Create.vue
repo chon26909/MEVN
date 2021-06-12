@@ -3,7 +3,7 @@
     <div class="col-md-6">
       <h1>Create Student</h1>
       <form @submit.prevent="handleSubmit">
-        <div class="form-group">
+        <div class="form-group mt-2">
           <label for="name">Name : </label>
           <input
             type="text"
@@ -12,16 +12,16 @@
             required
           />
         </div>
-        <div class="form-group">
+        <div class="form-group mt-2">
           <label for="name">Email : </label>
           <input
-            type="text"
+            type="email"
             class="form-control"
             v-model="student.email"
             required
           />
         </div>
-        <div class="form-group">
+        <div class="form-group  mt-2">
           <label for="name">Phone : </label>
           <input
             type="text"
@@ -30,7 +30,7 @@
             required
           />
         </div>
-        <div class="form-gruop">
+        <div class="form-gruop d-grid gap-2 mt-3" >
           <button class="btn btn-success btn-block">
             Create
           </button>
