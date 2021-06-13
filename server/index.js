@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));;
 app.use(cors());
 
-const studentAPI = require("./routes/studeent.route")
+const studentAPI = require("./routes/student.route")
 
 app.use("/api", studentAPI);
 
